@@ -1,0 +1,24 @@
+.contact
+{
+    display: flexbox;
+    flex-flow: row wrap;
+    margin: auto;
+    background-color: #47a466;
+    box-sizing: border-box;
+    vertical-align: bottom;
+}
+.background
+{
+    background-color: #7C5BCE;
+}
+body {
+    padding:0;
+    margin:0;
+}
+.footer-contactHeader
+{
+    text-align: left;
+    font-weight: bold;
+    font-size: 150%;
+    vertical-align:middle;
+}
