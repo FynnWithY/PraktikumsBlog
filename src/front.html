@@ -11,7 +11,7 @@
         }
       </style>
     <title>Praktikum</title>
-    <script src="front.js"></script>
+    <!-- <script src="front.js"></script> -->
 </head>
 <body> <div class="überschrift">
     <h1>Willkommen beim Praktikumsbericht</h1>
@@ -19,10 +19,8 @@
     <div class="logo">
     <img src="../res/apple_logo.jpg"; width="200px"; height="100px">
     </div>
-<div class="suchleiste">
-    <form action="/search" method="get">
-        <input type="text" name="query" id="search"; placeholder="Search..."; oninput="onInput()" style="width: 500px; height: 50px; font-size: 20px" >
-      </form>
+    <div class="suchleiste">
+      <input type="text" name="query" id="search"; placeholder="Search..."; style="width: 500px; height: 50px; font-size: 20px" >
       </div>
     
        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -36,9 +34,9 @@
         });
       });
 
-        $("#search").off("autocompleteclose", function(event, ui){
-          event.preventDefault();
-      });
+      $("#search").on("autocompleteselect", function(event, ui){
+        //  event.preventDefault();
+       });
     </script>
 </body>
 </html>

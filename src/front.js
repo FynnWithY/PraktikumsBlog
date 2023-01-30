@@ -7,13 +7,19 @@ function openPage(tag)
     var url;
     window.location.pathname= tag;
 }
-function onInput(key)
+function onInput(event)
 {
     if(key === "Enter")
     {
-        window.location.pathname= "src/day1";
+        window.location.pathname= "src/day1.html";
         var inputValue = document.getElementById("search").value;
-        console.log("The input value is: " + inputValue);
+        console.error("The input value is: " + inputValue);
         openPage(inputValue);
     }
 }
+
+const input = document.getElementById("search");
+
+  input.addEventListener("keydown", function (event) {
+    onInput(event);
+  });
