@@ -2,3 +2,17 @@
     vertical-align: top;
     text-align: left;
 }
+.überschrift {
+    text-align: center;
+}
+.suchleiste {
+    width: 50%;
+    /* height: 10%; */;
+    display: block;
+    margin: auto;
+}
+#search {
+    text-align: center;
+    display: block;
+    margin: auto;
+}
