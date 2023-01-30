@@ -1,0 +1,19 @@
+.header
+{
+    text-align: center;
+}
+.infoTextHeader
+{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    font-size: 150%;
+}
+.infoSubtext{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    font-size: 150%;
+}
