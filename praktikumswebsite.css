@@ -1,0 +1,14 @@
+#calendar {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    margin: 0 auto;
+  }
+  
+  .day {
+    flex-basis: 14.28%;
+    text-align: center;
+    padding: 20px 0;
+    border: 1px solid #ccc;
+  }
+  
