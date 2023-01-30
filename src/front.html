@@ -11,6 +11,7 @@
         }
       </style>
     <title>Praktikum</title>
+    <script src="front.js"></script>
 </head>
 <body> <div class="überschrift">
     <h1>Willkommen beim Praktikumsbericht</h1>
@@ -20,7 +21,7 @@
     </div>
 <div class="suchleiste">
     <form action="/search" method="get">
-        <input type="text" name="query" id="search"; placeholder="Search..."; style="width: 500px; height: 50px; font-size: 20px">
+        <input type="text" name="query" id="search"; placeholder="Search..."; oninput="onInput()" style="width: 500px; height: 50px; font-size: 20px" >
       </form>
       </div>
     
@@ -31,7 +32,12 @@
       $(document).ready(function() {
         $("#search").autocomplete({
           source: autocompleteSource,
+          messages:{}
         });
+      });
+
+        $("#search").off("autocompleteclose", function(event, ui){
+          event.preventDefault();
       });
     </script>
 </body>
