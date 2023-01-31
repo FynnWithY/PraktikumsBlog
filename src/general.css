@@ -3,7 +3,7 @@
     display: flexbox;
     flex-flow: row wrap;
     margin: auto;
-    background-color: #47a466;
+    background-color: #a9a9a9;
     box-sizing: border-box;
     vertical-align: bottom;
 }
