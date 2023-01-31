@@ -1,15 +1,15 @@
+.background
+{
+    background-color: #eeeff8;
+}
 .contact
 {
     display: flexbox;
     flex-flow: row wrap;
     margin: auto;
-    background-color: #47a466;
+    background-color: #575757;
     box-sizing: border-box;
     vertical-align: bottom;
-}
-.background
-{
-    background-color: #7C5BCE;
 }
 body {
     padding:0;
