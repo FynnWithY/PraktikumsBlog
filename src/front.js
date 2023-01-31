@@ -17,9 +17,7 @@ function onInput(event)
 {
     if(event.key === "Enter")
     {
-        // window.location.pathname= "src/day1.html";
         var inputValue = document.getElementById("search").value;
-        console.error("The input value is: " + inputValue);
         openPage(inputValue);
     }
 }
