@@ -2,13 +2,13 @@ var autocompleteSource = ["Tag 1", "Begrüßung", "Grundlagen der Informatik", "
 "Tag 2", "Python", "Python Praxis", "Python Recap", "Tung Le Trong", 
 "Tag 3", "Robotics", "IT-Sicherheit", "Sap Plattform", "Kai-Peter Schöttelndreier", "Taras Shevchenko",
 "Tag 4", "Mobile App Entwicklung", "Raffaele Chianese", 
-"Tag 5", "Agilität", "Austausch mit Auszubildenden", "Webseitenprogrammierung"]
+"Tag 5", "Agilität", "Austausch mit Auszubildenden", "Webseitenprogrammierung", "Scrum"]
 
 var day1=["Tag 1", "Begrüßung", "Grundlagen der Informatik", "Aufgaben zu Grundlagen der Informatik", "Recap zu Grundlagen der Infromatik", "Arbeitsalltag"]
 var day2=["Tag 2", "Python", "Python Praxis", "Python Recap", "Tung Le Trong"];
 var day3=["Tag 3", "Robotics", "IT-Sicherheit", "Sap Plattform", "Kai-Peter Schöttelndreier", "Taras Shevchenko"];
 var day4=["Tag 4", "Mobile App Entwicklung", "Raffaele Chianese"]
-var day5=["Tag 5", "Agilität", "Austausch mit Auszubildenden", "Webseitenprogrammierung"]
+var day5=["Tag 5", "Agilität", "Austausch mit Auszubildenden", "Webseitenprogrammierung", "Scrum"]
 function openPage(tag)
 {
     if(day1.includes(tag))
