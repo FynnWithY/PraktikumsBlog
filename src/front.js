@@ -31,7 +31,7 @@ function openPage(tag)
     }else if(day6.includes(tag))
     {
         window.location.pathname= "src/day6.html";
-    }else if(tag === "http://127.0.0.1:5500/res/apple_logo.jpg")
+    }else if(tag === "http://127.0.0.1:5500/res/testLogo.png")
     {
         window.location.pathname= "src/secret.html";
     }                                            
