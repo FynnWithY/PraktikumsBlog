@@ -1,7 +1,3 @@
-.background
-{
-    background-color: #eeeff8;
-}
 .contact
 {
     display: flexbox;
@@ -10,6 +6,10 @@
     background-color: #a9a9a9;
     box-sizing: border-box;
     vertical-align: bottom;
+}
+.background
+{
+    background-color: #7C5BCE;
 }
 body {
     padding:0;
