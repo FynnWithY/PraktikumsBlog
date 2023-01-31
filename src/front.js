@@ -30,7 +30,3 @@ function onInput(event)
 }
 
 const input = document.getElementById("search");
-
-  input.addEventListener("keydown", function (event) {
-    onInput(event);
-  });
