@@ -20,3 +20,8 @@ img
 {
     image-rendering: pixelated;
 }
+.info {
+    text-align: center;
+}
+#body {
+}
