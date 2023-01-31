@@ -7,18 +7,25 @@
     box-sizing: border-box;
     vertical-align: bottom;
 }
-.background
-{
-    background-color: #7C5BCE;
-}
 body {
     padding:0;
     margin:0;
 }
-.footer-contactHeader
+.table-contactHeader
 {
     text-align: left;
     font-weight: bold;
     font-size: 150%;
     vertical-align:middle;
+}
+.table-contact
+{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table-contactSubtext
+{
+    text-align: left;
+    font-size: 150%;
 }
