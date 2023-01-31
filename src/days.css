@@ -1,41 +1,53 @@
-body{
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-footer{
-    margin-top: auto;
-}
-.header
-{
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  .header {
     text-align: center;
-    font-size: 300%;
+    font-size: 36px;
     font-weight: bold;
-}
-.infoTextHeader
-{
-    font-weight: bold;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
-    font-size: 150%;
-}
-.infoSubtext{
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
-    font-size: 100%;
+    margin-top: 30px;
+  }
+  
+  .infoTextHeader {
+    font-size: 24px;
+    margin-left: 30px;
+    cursor: pointer;
+  }
+  
+  .infoSubtextHeader {
+    font-size: 18px;
+    margin-left: 60px;
+  }
+  
+  .infoSubtext {
+    font-size: 18px;
+    margin-left: 60px;
     display: none;
-}
-.infoSubtextHeader
-{
-    font-weight: bold;
+  }
+  
+  .table-contact {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
-    font-size: 100%;
-    display: block;
-}
+  }
+  
+  .table-contactHeader {
+    background-color: #ddd;
+    font-weight: bold;
+    padding: 10px;
+  }
+  
+  .table-contactSubtext {
+    padding: 10px;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 50px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
