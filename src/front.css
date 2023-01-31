@@ -16,6 +16,10 @@
     display: block;
     margin: auto;
 }
+img
+{
+    image-rendering: pixelated;
+}
 .info{
     text-align: center;
         position: fixed;
