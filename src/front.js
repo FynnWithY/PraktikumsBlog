@@ -19,17 +19,18 @@ function openPage(tag)
         window.location.pathname= "src/day2.html";
     }else if(day3.includes(tag))
     {
-        window.location.pathname="src/day3.html";
+        window.location.pathname= "src/day3.html";
     }else if(day4.includes(tag))
     {
-        window.location.pathname="src/day4.html";
+        window.location.pathname= "src/day4.html";
     }else if(day5.includes(tag))
     {
-        window.location.pathname="src/day5.html";
+        window.location.pathname= "src/day5.html";
     }           
 }
 function onInput(event)
 {
+    console.log(event.key)
     if(event.key === "Enter")
     {
         var inputValue = document.getElementById("search").value;
@@ -37,4 +38,5 @@ function onInput(event)
     }
 }
 
-const input = document.getElementById("search");
+const input = document.getElementById("search")
+input.addEventListener("keydown", function(event){onInput(event)});
