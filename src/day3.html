@@ -10,58 +10,69 @@
     <script src="days.js"></script>
     <link rel="shortcut icon" type="image/x-icon" href="../res/logo.ico" />
 </head>
-<body>
-    <p class="header">Mittwoch</p>
-    <p class="infoTextHeader" onclick="onTextClick('rt1')">Robotics</p>
-        <p class="infoSubtextHeader">9:00-12:00 bei Kai-Peter Schöttelndreier</p>
-        <p class="infoSubtext" id="rt1">Vorstellung von Software-Robotics und erstellen eines eigenen Roboters mit Hilfe eins Programms.</p>
-    <br>
-    
-    <p class="infoTextHeader">Mittagessen</p>
-        <p class="infoSubtextHeader">12:00-13:00</p>
-    <br>
-    <p class="infoTextHeader" onclick="onTextClick('rt2')">IT-Sicherheit</p>
-        <p class="infoSubtextHeader">13:00-15:00 bei Taras Shevchenko</p>
-        <p class="infoSubtext" id="rt2">Wir haben gelernt, auf welche Weise von Fremden auf Daten zugegriffen werden kann.</p>
-    <br>
-    <p class="infoTextHeader" onclick="onTextClick('rt3')">SAP Plattform</p>
-        <p class="infoSubtextHeader">15:00-16:00 bei Özgür Akca</p>
-        <p class="infoSubtext" id="rt3">Uns wurde die SAP Plattform im virtuellen Meeting vorgestellt. </p>
-    <br>
+<body> 
+    <header class="header">
+        <h1>Mittwoch</h1>
+    </header>
+    <section class="info">
+        <div class="info-header">
+            <p class="info-title" onclick="onTextClick('rt1')">Robotics</p>
+            <p class="info-subtitle">9:00-12:00 bei Kai-Peter Schöttelndreier</p>
+        </div>
+            <p class="info-subtext" id="rt1">Vorstellung von Software-Robotics und erstellen eines eigenen Roboters mit Hilfe eins Programms.</p>
+        <br>
+        <div class="info-header"></div>
+            <p class="info-title">Mittagessen</p>
+            <p class="info-subtitle">12:00-13:00</p>
+        </div>
+        <br>
+        <div class="info-header">
+            <p class="info-title" onclick="onTextClick('rt2')">IT-Sicherheit</p>
+            <p class="info-subtitle">13:00-15:00 bei Taras Shevchenko</p>
+        </div>
+            <p class="info-subtext" id="rt2">Wir haben gelernt, auf welche Weise von Fremden auf Daten zugegriffen werden kann.</p>
+        <br>
+        <div class="info-header">
+            <p class="info-title" onclick="onTextClick('rt3')">SAP Plattform</p>
+            <p class="info-subtitle">15:00-16:00 bei Özgür Akca</p>
+        <div>
+            <p class="info-subtext" id="rt3">Uns wurde die SAP Plattform im virtuellen Meeting vorgestellt. </p>
+        <br>
+    </section>
     <footer>
         <div class="contact">
             <table class="table-contact">
                 <tr>
-                    <th class="table-contactHeader">Vorname:   </th>
-                    <th class="table-contactHeader">Nachname:  </th>
-                    <th class="table-contactHeader">Handy:     </th>
-                    <th class="table-contactHeader">E-Mail:    </th>
+                    <th class="table-contact-header">Vorname:   </th>
+                    <th class="table-contact-header">Nachname:  </th>
+                    <th class="table-contact-header">Handy:     </th>
+                    <th class="table-contact-header">E-Mail:    </th>
                 </tr>
                 <tr>
-                    <td class="table-contactSubtext">Fynn</td>
-                    <td class="table-contactSubtext">Riemenschneider</td>
-                    <td class="table-contactSubtext">176 34487339</td>
-                    <td class="table-contactSubtext">fri2007@gmx.de</td>
+                    <td class="table-contact-subtext">Fynn</td>
+                    <td class="table-contact-subtext">Riemenschneider</td>
+                    <td class="table-contact-subtext">176 34487339</td>
+                    <td class="table-contact-subtext">fri2007@gmx.de</td>
                 </tr>
                 <tr>
-                    <td class="table-contactSubtext">Theo</td>
-                    <td class="table-contactSubtext">Daume</td>
-                    <td class="table-contactSubtext">177 6973006</td>
-                    <td class="table-contactSubtext">Theo.Daume@Inselgasse.de</td>
+                    <td class="table-contact-subtext">Theo</td>
+                    <td class="table-contact-subtext">Daume</td>
+                    <td class="table-contact-subtext">177 6973006</td>
+                    <td class="table-contact-subtext">Theo.Daume@Inselgasse.de</td>
                 </tr>
                 <tr>
 
-                    <td class="table-contactSubtext">Frederik</td>
-                    <td class="table-contactSubtext">Inderst</td>
+                    <td class="table-contact-subtext">Frederik</td>
+                    <td class="table-contact-subtext">Inderst</td>
 
-                    <td class="table-contactSubtext">TELEFON_NUMMER</td>
-                    <td class="table-contactSubtext">E-MAIL</td>
+                    <td class="table-contact-subtext">TELEFON_NUMMER</td>
+                    <td class="table-contact-subtext">E-MAIL</td>
                 </tr>
                 <tr>
-                    <td class="table-contactSubtext">NAME</td>
-                    <td class="table-contactSubtext">NACHNAME</td>
-                    <td class="table-contactSubtext">TELEFON_NUMMER</td>
-                    <td class="table-contactSubtext">E-MAIL</td>
+                    <td class="table-contact-subtext">NAME</td>
+                    <td class="table-contact-subtext">NACHNAME</td>
+                    <td class="table-contact-subtext">TELEFON_NUMMER</td>
+                    <td class="table-contact-subtext">E-MAIL</td>
                 </tr>
                 <tr></tr>
                 <tr></tr>
