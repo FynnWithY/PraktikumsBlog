@@ -11,29 +11,39 @@
     <link rel="shortcut icon" type="image/x-icon" href="../res/logo.ico" />
 </head>
 <body>
-    <p class="header">Mittwoch</p>
+    <header class="header"><h1>Mittwoch</h1></header>
     <div class="box">
         <img class="picture" src="../res/robotics.jpg"; width="auto"; height="170px"; style="margin-left: 475%">
         <img class="picture" src="../res/itsecurity.jpg"; width="auto"; height="170px"; style="margin-left:370%">
         <img class="picture" src="../res/sap.jpg"; width="auto"; height="170px"; style="margin-left: 498%">
         
     </div>
-    <p class="infoTextHeader" onclick="onTextClick('rt1')">Robotics</p>
-        <p class="infoSubtextHeader">9:00-12:00 bei Kai-Peter Schöttelndreier</p>
-        <p class="infoSubtext" id="rt1">Vorstellung von Software-Robotics und erstellen eines eigenen Roboters mit Hilfe eins Programms.</p>
+    <section class="info">
+    <div class="info-header">
+        <p class="info-title" onclick="onTextClick('rt1')">Robotics</p>
+        <p class="info-subtitle">9:00-12:00 bei Kai-Peter Schöttelndreier</p>
+    </div>
+    <p class="info-subtext" id="rt1">Vorstellung von Software-Robotics und erstellen eines eigenen Roboters mit Hilfe eins Programms.</p>
     <br>
     
-    <p class="infoTextHeader">Mittagessen</p>
-        <p class="infoSubtextHeader">12:00-13:00</p>
+    <div class="info-header">
+        <p class="info-title">Mittagessen</p>
+        <p class="info-subtitle">12:00-13:00</p>
+    </div>
     <br>
-    <p class="infoTextHeader" onclick="onTextClick('rt2')">IT-Sicherheit</p>
-        <p class="infoSubtextHeader">13:00-15:00 bei Taras Shevchenko</p>
-        <p class="infoSubtext" id="rt2">Wir haben gelernt, auf welche Weise von Fremden auf Daten zugegriffen werden kann.</p>
+    <div class="info-header">
+        <p class="info-title" onclick="onTextClick('rt2')">IT-Sicherheit</p>
+        <p class="info-subtitle">13:00-15:00 bei Taras Shevchenko</p>
+    </div>
+        <p class="info-subtext" id="rt2">Wir haben gelernt, auf welche Weise von Fremden auf Daten zugegriffen werden kann.</p>
     <br>
-    <p class="infoTextHeader" onclick="onTextClick('rt3')">SAP Plattform</p>
-        <p class="infoSubtextHeader">15:00-16:00 bei Özgür Akca</p>
-        <p class="infoSubtext" id="rt3">Uns wurde die SAP Plattform im virtuellen Meeting vorgestellt. </p>
+    <div class="info-header">
+        <p class="info-title" onclick="onTextClick('rt3')">SAP Plattform</p>
+        <p class="info-subtitle">15:00-16:00 bei Özgür Akca</p>
+    </div>
+        <p class="info-subtext" id="rt3">Uns wurde die SAP Plattform im virtuellen Meeting vorgestellt. </p>
     <br>
+</section>
     <footer>
         <div class="contact">
             <table class="table-contact">
