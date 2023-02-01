@@ -37,6 +37,9 @@ body {
   
   .info {
     text-align: center;
-    margin-top: 100px;
+    margin-top: 190px;
   }
-  
+
+  .kontaktformular {
+    text-align: right; text-decoration: blue; font-size: 150%;
+  }
