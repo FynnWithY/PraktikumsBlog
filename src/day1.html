@@ -11,8 +11,9 @@
     <link rel="shortcut icon" type="image/x-icon" href="../res/logo.ico" />
 </head>
 <body class="background">
-    <p class="header">Montag</p>
-
+    <p class="header">
+        >Montag</p>
+    
     <div class="box">
         <p><img class="picture" src="https://www.fidor.de/images/original/8ebc9a9238cd38ef657eded856e4dee254abfd6b5336.jpg"; width="auto"; height="150px"></p>
        
@@ -22,62 +23,71 @@
        
     </div>
 
-    <p class="infoTextHeader" onclick="onTextClick('rt1')">Begrüßung</p>
-        <p class="infoSubtextHeader">9:00-10:00</p>
-        <p class="infoSubtext" id="rt1"> Eine Einweisung und Plan des Praktikums </p>
+    <section class="info">
+    <div class="info-header">
+        <p class="info-title" onclick="onTextClick('rt1')">Begrüßung</p>
+        <p class="info-subtitle">9:00-10:00</p>
+    </div>
+        <p class="info-subtext" id="rt1"> Eine Einweisung und Plan des Praktikums </p>
     <br> 
    
     <p class="infoTextHeader" onclick="onTextClick('rt2')">Grundlagen der Informatik</p>
     <p class="infoSubtextHeader">10:00-12:00</p>
-    <p class="infoSubtext" id="rt2">Eine Einweisung in die Grundlagen der Informatik (Blockchain, Smart-Home, KI und Big Data)</p>
+    <p class="infoSubtext" id="rt2">Eine Einweisung in die Grundlagen der Informatik (Blockchain, Smart-Home, KI und Big-Data)</p>
 
    
     
     <br>
-    <p class="infoTextHeader">Mittagessen</p>
-        <p class="infoSubtextHeader">12:00-13:00</p>
+    <div class="info-header">
+        <p class="info-title">Mittagessen</p>
+        <p class="info-subtitle">12:00-13:00</p>
+    </div>
     <br>
-    <p class="infoTextHeader" onclick="onTextClick('rt3')">Aufgaben - Grundlagen der Informatik</p>
-        <p class="infoSubtextHeader">13:00-15:00</p>
-        <p class="infoSubtext" id="rt3">Ein Quiz und Selbststudium zu den Themen des Vortrages</p>
+    <div class="info-header">
+        <p class="info-title" onclick="onTextClick('rt3')">Aufgaben - Grundlagen der Informatik</p>
+        <p class="info-subtitle">13:00-15:00</p>
+    </div>
+        <p class="info-subtext" id="rt3">Ein Quiz und Selbststudium zu den Themen des Vortrages</p>
     <br>
-    <p class="infoTextHeader" onclick="onTextClick('rt4')">Arbeitsalltag</p>
-        <p class="infoSubtextHeader">15:00-16:00</p>
-        <p class="infoSubtext" id="rt4">Wir haben uns den Arbeitsalltag eines Angestellten der Bank angesehen</p>
+    <div class="info-header">
+        <p class="info-title" onclick="onTextClick('rt4')">Arbeitsalltag</p>
+        <p class="info-subtitle">15:00-16:00</p>
+    </div>
+        <p class="info-subtext" id="rt4">Wir haben uns den Arbeitsalltag eines Angestellten der Bank angesehen</p>
     <br>
-
+    </section>
     <footer>
         <div class="contact">
             <table class="table-contact">
                 <tr>
-                    <th class="table-contactHeader">Vorname:   </th>
-                    <th class="table-contactHeader">Nachname:  </th>
-                    <th class="table-contactHeader">Handy:     </th>
-                    <th class="table-contactHeader">E-Mail:    </th>
+                    <th class="table-contact-header">Vorname:   </th>
+                    <th class="table-contact-header">Nachname:  </th>
+                    <th class="table-contact-header">Handy:     </th>
+                    <th class="table-contact-header">E-Mail:    </th>
                 </tr>
                 <tr>
-                    <td class="table-contactSubtext">Fynn</td>
-                    <td class="table-contactSubtext">Riemenschneider</td>
-                    <td class="table-contactSubtext">176 34487339</td>
-                    <td class="table-contactSubtext">fri2007@gmx.de</td>
+                    <td class="table-contact-subtext">Fynn</td>
+                    <td class="table-contact-subtext">Riemenschneider</td>
+                    <td class="table-contact-subtext">176 34487339</td>
+                    <td class="table-contact-subtext">fri2007@gmx.de</td>
                 </tr>
                 <tr>
-                    <td class="table-contactSubtext">Theo</td>
-                    <td class="table-contactSubtext">Daume</td>
-                    <td class="table-contactSubtext">177 6973006</td>
-                    <td class="table-contactSubtext">Theo.Daume@Inselgasse.de</td>
+                    <td class="table-contact-subtext">Theo</td>
+                    <td class="table-contact-subtext">Daume</td>
+                    <td class="table-contact-subtext">177 6973006</td>
+                    <td class="table-contact-subtext">Theo.Daume@Inselgasse.de</td>
                 </tr>
                 <tr>
-                    <td class="table-contactSubtext">Frederik</td>
-                    <td class="table-contactSubtext">Inderst</td>
-                    <td class="table-contactSubtext">TELEFON_NUMMER</td>
-                    <td class="table-contactSubtext">E-MAIL</td>
+                    <td class="table-contact-subtext">Frederik</td>
+                    <td class="table-contact-subtext">Inderst</td>
+                    <td class="table-contact-subtext">TELEFON_NUMMER</td>
+                    <td class="table-contact-subtext">E-MAIL</td>
                 </tr>
                 <tr>
-                    <td class="table-contactSubtext">NAME</td>
-                    <td class="table-contactSubtext">NACHNAME</td>
-                    <td class="table-contactSubtext">TELEFON_NUMMER</td>
-                    <td class="table-contactSubtext">E-MAIL</td>
+                    <td class="table-contact-subtext">NAME</td>
+                    <td class="table-contact-subtext">NACHNAME</td>
+                    <td class="table-contact-subtext">TELEFON_NUMMER</td>
+                    <td class="table-contact-subtext">E-MAIL</td>
                 </tr>
                 <tr></tr>
                 <tr></tr>
