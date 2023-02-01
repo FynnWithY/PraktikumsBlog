@@ -6,6 +6,7 @@
     background-color: #a9a9a9;
     box-sizing: border-box;
     vertical-align: bottom;
+    position: relative;
 }
 body {
     padding:0;

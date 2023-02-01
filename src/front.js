@@ -15,25 +15,25 @@ function openPage(tag)
 {
     if(day1.includes(tag))
     {
-        window.location.pathname= "src/day1.html";
+        window.location.href= "day1.html";
     }else if(day2.includes(tag))
     {
-        window.location.pathname= "src/day2.html";
+        window.location.href= "day2.html";
     }else if(day3.includes(tag))
     {
-        window.location.pathname= "src/day3.html";
+        window.location.href= "day3.html";
     }else if(day4.includes(tag))
     {
-        window.location.pathname= "src/day4.html";
+        window.location.href= "day4.html";
     }else if(day5.includes(tag))
     {
-        window.location.pathname= "src/day5.html";
+        window.location.href= "day5.html";
     }else if(day6.includes(tag))
     {
-        window.location.pathname= "src/day6.html";
+        window.location.href = "day6.html";
     }else if(tag === "http://127.0.0.1:5500/res/logo.png")
     {
-        window.location.pathname= "src/secret.html";
+        window.location.href= "secret.html";
     }                                            
 }
 function onInput(event)
