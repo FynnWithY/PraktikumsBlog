@@ -8,6 +8,7 @@
   margin: 20px;
   background-color: #eee;
   padding: 20px;
+
 }
 
 .info-header {
@@ -17,29 +18,31 @@
 }
 
 .info-title {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bold;
   cursor: pointer;
 }
 
 .info-subtitle {
-  font-size: 14px;
+  font-size: 24px;
   color: #333;
 }
 
 .info-subtext {
   display: none;
-  margin-top: 10px;
-  font-size: 16px;
+  margin-top: 20px;
+  font-size: 26px;
 }
 
 .footer {
+  vertical-align: bottom;
   background-color: #ddd;
   padding: 10px;
   text-align: center;
-  position: absolute;
+  /* position: absolute; */
   bottom: 0;
   width: 100%;
+  margin-top: 6%;
 }
 
 .table-contact {
