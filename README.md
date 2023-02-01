@@ -22,7 +22,7 @@ To view the website, simply open the HTML file in your preferred browser. The we
 
 ## Author
 
-Finn,Teo
+Fynn,Theo
 
 
 ## Acknowledgments
