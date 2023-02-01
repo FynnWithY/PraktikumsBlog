@@ -26,12 +26,15 @@
 .info-subtitle {
   font-size: 24px;
   color: #333;
+  position: absolute;
+  margin-left: 28%;
 }
 
 .info-subtext {
   display: none;
   margin-top: 20px;
   font-size: 26px;
+  width: 30%;
 }
 
 .footer {
