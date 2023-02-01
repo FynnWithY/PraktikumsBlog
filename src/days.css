@@ -1,55 +1,62 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-  }
-  
-  .header {
-    text-align: center;
-    font-size: 36px;
-    font-weight: bold;
-    margin-top: 30px;
-  }
-  
-  .infoTextHeader {
-    font-size: 24px;
-    margin-left: 30px;
-    cursor: pointer;
-  }
-  
-  .infoSubtextHeader {
-    font-size: 18px;
-    margin-left: 60px;
-  }
-  
-  .infoSubtext {
-    font-size: 18px;
-    margin-left: 60px;
-    width: 50%;
-    display: none;
-  }
-  
-  .table-contact {
-    width: 80%;
-    margin: 0 auto;
-    border-collapse: collapse;
-    text-align: center;
-  }
-  
-  .table-contactHeader {
-    background-color: #ddd;
-    font-weight: bold;
-    padding: 10px;
-  }
-  
-  .table-contactSubtext {
-    padding: 10px;
-  }
-  
-  footer {
-    text-align: center;
-    margin-top: 100px;
-    /* position: absolute; */
-    bottom: 0;
-    width: 100%;
-    vertical-align: bottom;
-  }
+.header {
+  background-color: #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.info {
+  margin: 20px;
+  background-color: #eee;
+  padding: 20px;
+}
+
+.info-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.info-title {
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.info-subtitle {
+  font-size: 14px;
+  color: #333;
+}
+
+.info-subtext {
+  display: none;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.footer {
+  background-color: #ddd;
+  padding: 10px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.table-contact {
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+.table-contact-header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.table-contact-subtext {
+  border: 1px solid #333;
+  padding: 10px;
+  text-align: center;
+}
