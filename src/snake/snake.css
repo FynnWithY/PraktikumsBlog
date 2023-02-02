@@ -1,4 +1,7 @@
-
+body
+{
+    background-color: greenyellow;
+}
 #canvas
 {
     border: 1px solid black;

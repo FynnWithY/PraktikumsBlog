@@ -80,7 +80,7 @@ function onKeyDown(event) {
     }
 }
 function draw() {
-    ctx.fillStyle = 'white';
+    ctx.fillStyle = 'beige';
     ctx.fillRect(0,0,width,height);
     ctx.fillStyle = 'yellow';
     ctx.fillRect(food.x, food.y, stepSize, stepSize);
