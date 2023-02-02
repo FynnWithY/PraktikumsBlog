@@ -1,3 +1,8 @@
+
+/** 
+ * 
+ * @param {*} id the id of the item you want the display to be switched to either block or none
+ */
 function revealText(id)
 {
     const hiddenText = document.getElementById(id);
@@ -9,6 +14,10 @@ function revealText(id)
         hiddenText.style.display = "block";
     }
 }
+/**
+ * 
+ * @param {*} id the id of an item you want to reveal when a text is clicked
+ */
 function onTextClick(id)
 {
     revealText(id);
