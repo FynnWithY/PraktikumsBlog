@@ -41,5 +41,9 @@ body {
   }
 
   .kontaktformular {
-    text-align: right; text-decoration: blue; font-size: 150%;
+    text-align: right; font-size: 150%; margin-top: 10px
+  }
+
+  .snake {
+    text-align: left; font-size: 150%; margin-top: -180px
   }
