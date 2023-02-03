@@ -126,7 +126,7 @@ function checkCollisions()
 function update() {
     frames++;
 
-    if(frames>=15)
+    if(frames>=30)
     {
         frames=0;
         checkCollisions();

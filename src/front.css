@@ -5,13 +5,13 @@ body {
   
   .überschrift {
     text-align: center;
-    margin-top: 50px;
+    margin-top: -150px;
   }
   
   .logo {
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 220px;
     image-rendering:crisp-edges;
   }
   
@@ -37,7 +37,7 @@ body {
   
   .info_f {
     text-align: center;
-    margin-top: 190px;
+    margin-top: -450px;
   }
 
   .kontaktformular {
