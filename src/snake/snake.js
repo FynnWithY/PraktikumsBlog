@@ -99,7 +99,6 @@ function addPart()
 {
     body.push(new Point2D(body[body.length-1].x,body[body.length-1].y));
 }
-var score=0;
 function checkCollisions()
 {
     /*Body*/
@@ -108,8 +107,6 @@ function checkCollisions()
         if(body[i].x==body[body.length-1].x && body[i].y==body[body.length-1].y)
         {
             body=[new Point2D(x,y)];
-            score=0;
-            document.getElementById("score").value=score;
         }
     }
      /*Food*/
@@ -118,15 +115,13 @@ function checkCollisions()
          addPart();
          food=new Point2D(Math.clamp(Math.round(getRandomInt(0,width)/stepSize),0,maxW)*stepSize,
                      Math.clamp(Math.round(getRandomInt(0,height)/stepSize),0,maxH)*stepSize);
-        score++;
-        document.getElementById("score").value=score;
      }
 }
 
 function update() {
     frames++;
 
-    if(frames>=30)
+    if(frames>=15)
     {
         frames=0;
         checkCollisions();
