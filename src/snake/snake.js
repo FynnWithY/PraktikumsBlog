@@ -117,10 +117,11 @@ function checkCollisions()
                      Math.clamp(Math.round(getRandomInt(0,height)/stepSize),0,maxH)*stepSize);
      }
 }
+
 function update() {
     frames++;
 
-    if(frames>=30)
+    if(frames>=15)
     {
         frames=0;
         checkCollisions();
